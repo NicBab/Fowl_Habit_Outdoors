@@ -1,6 +1,7 @@
-// import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import styles from "./style";
 import { Navbar } from "./components/index/components.index.js";
+import { HomePg, ContactPg } from "./pages/index/pages.index"
 
 function App() {
   return (
@@ -12,6 +13,10 @@ function App() {
           </div>
         </div>
       </div>
+      <Routes>
+        <Route exact path="/" element={<HomePg />} />
+        <Route path="/contact" element={ <ContactPg /> } />
+      </Routes>
     </>
   );
 }
