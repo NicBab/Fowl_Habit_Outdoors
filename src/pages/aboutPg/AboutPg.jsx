@@ -1,9 +1,7 @@
-import React from 'react'
+import { About } from "../../components/index/components.index";
 
 const AboutPg = () => {
-  return (
-    <div>AboutPg</div>
-  )
+  return <About />
 }
 
 export default AboutPg

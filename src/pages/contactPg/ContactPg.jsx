@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContactPg = () => {
   return (
-    <div>Contact</div>
+    <div>ContactPg</div>
   )
 }
 
