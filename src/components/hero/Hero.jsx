@@ -33,7 +33,7 @@ const Hero = () => {
         <img
           src={fhoDog}
           alt="bird dog"
-          className="w-[100%] h-[100%] relative rounded-[50%] z-[5]"
+          className="w-[100%] h-[100%] relative rounded-[55%] z-[5]"
         />
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-50 white__gradient"></div>
       </div>

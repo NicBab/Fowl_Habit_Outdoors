@@ -7,7 +7,7 @@ const CTA = () => {
     <section
       className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} mt-[50px] sm:flex-row flex-col bg-black-gradient rounded-[20px] z-[1] glass-card-2`}
     >
-      <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-50 white__gradient opacity-[.2]"></div>
+      <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-50 white__gradient opacity-[.1]"></div>
       <div className="flex-1 flex flex-col z-[1]">
         <h2 className={styles.heading2}>Contact for Scheduling!</h2>
       </div>
@@ -21,7 +21,6 @@ const CTA = () => {
           <Social />
         </div>
       </div>
-      
     </section>
   );
 };
