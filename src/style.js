@@ -2,7 +2,7 @@ const styles = {
     boxWidth: "max-w-[100vw] w-full",
 
     button: "py-4 px-6 mb-5 w-[200px] bg-secondary font-poppins font-medium text-[18px] text-primary rounded-[10px] hover:text-white",
-    buttonSecondary: "py-4 px-6 xs:ml-5 w-[200px] text-secondary hover:text-white font-poppins font-medium text-[18px] border border-1 border-iconGreen rounded-[10px]",
+    buttonSecondary: "py-4 px-6 xs:ml-5 w-[200px] text-secondary hover:text-white font-poppins font-medium text-[18px] border border-1 border-secondary rounded-[10px]",
 
     heading2: "font-poppins flex justify-center font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[85px] leading-[50px] w-full",
     paragraph: "m-5 font-poppins font-normal text-dimWhite text-[14px] md:text-[16px] leading-[35px] indent-5",

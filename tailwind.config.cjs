@@ -8,10 +8,7 @@ module.exports = {
       colors: {
         primary: "#00040f", //black
         secondary: "#8F9779", //artichoke
-        dimWhite: "rgba(255, 255, 255, 0.7)",
-        dimPurple: "rgba(106, 23, 250, 0.122)",
-        iconGreen: "#8F9779",
-        blueText: "#33bbcf",
+        dimWhite: "#ffffffb3",
       },
 
       fontFamily: {

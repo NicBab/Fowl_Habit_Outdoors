@@ -1,5 +1,5 @@
 import styles from "../../style";
-import { Hero, About } from "../../components/index/components.index";
+import { Hero, About, CTA } from "../../components/index/components.index";
 
 const HomePg = () => {
   return (
@@ -12,6 +12,7 @@ const HomePg = () => {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <About />
+          <CTA />
         </div>
       </div>
     </div>
