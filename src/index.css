@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Changa+One&family=Open+Sans:wght@300;400&family=Raleway:ital,wght@0,200;0,400;1,400&family=Rubik:wght@400;500;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,6 +96,10 @@ body {
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+.bg_green {
+  background: #A9BA9D 56.1%
 }
 
 .glass-card {

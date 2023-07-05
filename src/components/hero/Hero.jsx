@@ -1,5 +1,5 @@
 import styles from "../../style";
-import { fhoDog } from "../../assets/index/assets.index"
+import { fhoDog } from "../../assets/index/assets.index";
 
 const Hero = () => {
   return (
@@ -9,12 +9,12 @@ const Hero = () => {
           className={`flex flex-col items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2`}
         ></div>
         <div className="flex flex-wrap-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[40px] text-[20px] text-dimWhite ss:leading-[40px] leading-[40px]">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[40px] text-[20px] text-dimWhite ss:leading-[40px] leading-[40px] ss:mb-4">
             Welcome to
             <br className="sm:block " />
           </h1>
         </div>
-        <h1 className=" font-poppins font-semibold xs:text-[68px] text-[30px] tracking-wider text-white xs:leading-[80px] leading-[60px] w-full">
+        <h1 className=" font-changa font-semibold xs:text-[68px] text-[30px] tracking-wider text-white xs:leading-[80px] leading-[60px] w-full">
           Fowl Habit Outdoors
         </h1>
         <p className="max-w-[400px] min-w-[250px] mt-5">
@@ -33,8 +33,9 @@ const Hero = () => {
         <img
           src={fhoDog}
           alt="bird dog"
-          className="w-[100%] h-[100%] relative rounded-full z-[5]"
+          className="w-[100%] h-[100%] relative rounded-[50%] z-[5]"
         />
+        <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-50 white__gradient"></div>
       </div>
     </section>
   );

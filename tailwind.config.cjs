@@ -6,16 +6,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#00040f",
-        secondary: "#5ce1e6",
+        primary: "#00040f", //black
+        secondary: "#8F9779", //artichoke
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimPurple: "rgba(106, 23, 250, 0.122)",
-        iconPurple: "#4b0082",
+        iconGreen: "#8F9779",
         blueText: "#33bbcf",
       },
 
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        changa: ["changa+one", "sans-serif"],
       },
     },
     screens: {

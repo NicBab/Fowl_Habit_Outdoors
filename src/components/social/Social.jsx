@@ -3,7 +3,7 @@ import { socialMedia } from "../../constants/social-data/social-data.js";
 
 const Social = () => {
   return (
-    <div className="flex flex-row md:mt-0 mt-6">
+    <div className="flex flex-row md:mt-0">
       {socialMedia.map((social, index) => (
         <Tooltip title={social.title} key={index}>
           <img
