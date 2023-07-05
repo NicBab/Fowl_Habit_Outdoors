@@ -5,8 +5,4 @@ export const whyData = [
       id: 1,
       img: fhoDog,
     },
-    {
-      id: 2,
-      img: fhoDog
-    },
   ]

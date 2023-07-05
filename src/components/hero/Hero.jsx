@@ -15,7 +15,7 @@ const Hero = () => {
           </h1>
         </div>
         <h1 className=" font-changa font-semibold xs:text-[68px] text-[30px] tracking-wider text-white xs:leading-[80px] leading-[60px] w-full">
-          Fowl Habit Outdoors
+          Fowl Habit Outfitters
         </h1>
         <p className="max-w-[400px] min-w-[250px] mt-5">
           <span className="ss:text-[35px] text-[20px] text-dimWhite">

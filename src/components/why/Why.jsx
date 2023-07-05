@@ -6,7 +6,7 @@ import { whyData } from "../../constants/why-data/why-data";
 
 const Why = () => {
   return (
-    <section id="features" className={`${layout.section} mt-10`}>
+    <section id="features" className={`${layout.sectionReverse} mt-10`}>
 
       {/* gradient start */}
       <div className="absolute z-[0] w-[60%] h-[80%] rounded-full bottom-50 right-10 white__gradient opacity-[.15]"></div>
