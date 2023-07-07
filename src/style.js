@@ -6,7 +6,7 @@ const styles = {
 
     title: "font-council tracking-widest text-primary text-[45px] xs:text-[90px] xs:leading-[80px] leading-[60px] w-full ml-5 xs:ml-10",
     text: "font-council tracking-widest",
-    heading2: "font-council tracking-widest flex justify-center font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[85px] leading-[50px] w-full",
+    heading2: "font-council tracking-widest flex justify-center xs:text-[48px] text-[40px] text-white xs:leading-[85px] leading-[50px] w-full",
     paragraph: "font-council tracking-widest text-dimWhite m-5 text-[25px] md:text-[25px] leading-[25px] indent-5",
 
     cardHeading: "font-council flex justify-center font-semibold text-[20px] text-white leading-[40px] w-full",
