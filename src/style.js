@@ -4,7 +4,7 @@ const styles = {
     button: "font-council tracking-widest py-2 px-4 w-[200px] bg-secondary text-[25px] text-primary rounded-[10px] hover:text-white flex flex-center justify-center",
     buttonSecondary: "font-council tracking-widest py-2 px-4 w-[200px] text-secondary hover:text-white text-[25px] border border-1 border-secondary rounded-[10px] flex flex-center justify-center",
 
-    title: "font-council tracking-widest text-primary font-semibold text-[45px] xs:text-[80px] xs:leading-[80px] leading-[60px] w-full ml-5 xs:ml-10",
+    title: "font-council tracking-widest text-primary text-[45px] xs:text-[90px] xs:leading-[80px] leading-[60px] w-full ml-5 xs:ml-10",
     text: "font-council tracking-widest",
     heading2: "font-council tracking-widest flex justify-center font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[85px] leading-[50px] w-full",
     paragraph: "font-council tracking-widest text-dimWhite m-5 text-[25px] md:text-[25px] leading-[25px] indent-5",
