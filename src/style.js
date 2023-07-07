@@ -1,14 +1,16 @@
 const styles = {
     boxWidth: "max-w-[100vw] w-full",
 
-    button: "py-4 px-6 mb-5 w-[200px] bg-secondary font-poppins font-medium text-[18px] text-primary rounded-[10px] hover:text-white",
-    buttonSecondary: "py-4 px-6 xs:ml-5 w-[200px] text-secondary hover:text-white font-poppins font-medium text-[18px] border border-1 border-secondary rounded-[10px]",
+    button: "font-council tracking-widest py-2 px-4 w-[200px] bg-secondary text-[25px] text-primary rounded-[10px] hover:text-white flex flex-center justify-center",
+    buttonSecondary: "font-council tracking-widest py-2 px-4 w-[200px] text-secondary hover:text-white text-[25px] border border-1 border-secondary rounded-[10px] flex flex-center justify-center",
 
-    heading2: "font-poppins flex justify-center font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[85px] leading-[50px] w-full",
-    paragraph: "m-5 font-poppins font-normal text-dimWhite text-[14px] md:text-[16px] leading-[35px] indent-5",
+    title: "font-council tracking-widest text-primary font-semibold text-[45px] xs:text-[80px] xs:leading-[80px] leading-[60px] w-full ml-5 xs:ml-10",
+    text: "font-council tracking-widest",
+    heading2: "font-council tracking-widest flex justify-center font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[85px] leading-[50px] w-full",
+    paragraph: "font-council tracking-widest text-dimWhite m-5 text-[25px] md:text-[25px] leading-[25px] indent-5",
 
-    cardHeading: "font-poppins flex justify-center font-semibold text-[20px] text-white leading-[40px] w-full",
-    cardParagraph: "m-5 font-poppins font-normal text-dimWhite text-[14px] leading-[25px] indent-5",
+    cardHeading: "font-council flex justify-center font-semibold text-[20px] text-white leading-[40px] w-full",
+    cardParagraph: "m-5 font-council font-normal text-dimWhite text-[14px] leading-[25px] indent-5",
 
     flexStart: "flex justify-center items-start",
     flexCenter: "flex justify-center items-center",
@@ -34,6 +36,7 @@ const styles = {
     sectionInfo: `flex-1 ${styles.flexCenter} flex-col`,
     sectionInfoReverse: `flex-1 ${styles.flexStart} flex-col-reverse`,
 
+    btnContainer: "md:flex flex-row space-x-4"
   };
   
   export default styles;

@@ -1,10 +1,10 @@
-import styles from "../../style";
+import styles, {layout} from "../../style";
 import { Hero, About, Why, CTA } from "../../components/index/components.index";
 
 const HomePg = () => {
   return (
     <div id="home">
-      <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`bg-hero-pattern bg-cover ${styles.paddingX} ${styles.flexStart} ${layout.section}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>

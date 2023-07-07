@@ -8,7 +8,7 @@ import {
       id: "social-media-1",
       title: "Facebook",
       icon: facebook,
-      link: "",
+      link: "https://www.facebook.com/profile.php?id=100094107786258",
     },
     {
       id: "social-media-2",

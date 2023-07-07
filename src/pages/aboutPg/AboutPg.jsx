@@ -1,7 +1,7 @@
-import { About } from "../../components/index/components.index";
+// import { About } from "../../components/index/components.index";
 
 const AboutPg = () => {
-  return <About />
+  return <div>aboutPg</div>
 }
 
 export default AboutPg

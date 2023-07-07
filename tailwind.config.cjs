@@ -10,9 +10,12 @@ module.exports = {
         secondary: "#8F9779", //artichoke
         dimWhite: "#ffffffb3",
       },
+      backgroundImage: {
+        'hero-pattern': "url('./src/assets/images/fowlHabitHero.jpg')",
+      },
 
       fontFamily: {
-        changa: ["changa+one", "sans-serif"],
+        council: ["council", "sans-serif"],
       },
     },
     screens: {

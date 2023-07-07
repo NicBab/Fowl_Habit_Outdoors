@@ -1,5 +1,5 @@
 import styles from "../../style";
-import { fhoDog } from "../../assets/index/assets.index";
+// import { fhoDog } from "../../assets/index/assets.index";
 
 const Hero = () => {
   return (
@@ -9,25 +9,34 @@ const Hero = () => {
           className={`flex flex-col items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2`}
         ></div>
         <div className="flex flex-wrap-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[40px] text-[20px] text-dimWhite ss:leading-[40px] leading-[40px] ss:mb-4">
+          <h1
+            className={`${styles.text} flex-1 ss:text-[40px] text-[20px] text-primary ss:leading-[40px] leading-[40px] ss:mb-4`}
+          >
             Welcome to
             <br className="sm:block " />
           </h1>
         </div>
-        <h1 className=" font-changa font-semibold xs:text-[68px] text-[30px] tracking-wider text-white xs:leading-[80px] leading-[60px] w-full">
+        <div
+          className={`${styles.title}`}
+        >
           Fowl Habit Outfitters
-        </h1>
+        </div>
         <p className="max-w-[400px] min-w-[250px] mt-5">
-          <span className="ss:text-[35px] text-[20px] text-dimWhite">
+          <span
+            className={`${styles.text} ss:text-[35px] text-[30px] text-primary`}
+          >
             Hunting Guide Services
           </span>
           <br className="sm:block" />
-          <span className={`${styles.paragraph} indent-56`}>
-            South Louisiana Duck hunting guide services
+          <span className={`${styles.paragraph} text-primary`}>
+            South Louisiana Duck hunting guide services. If you don't have
+            access to Adobe Fonts, you may need to consider alternative methods
+            for including the font in your website, such as downloading the font
+            files and hosting them locally or using a third-party font service.
           </span>
         </p>
       </div>
-      <div
+      {/* <div
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <img
@@ -35,8 +44,8 @@ const Hero = () => {
           alt="bird dog"
           className="w-[100%] h-[100%] relative rounded-[55%] z-[5]"
         />
-        <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-50 white__gradient"></div>
-      </div>
+        <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-50 white__gradient opacity-[.5]"></div>
+      </div> */}
     </section>
   );
 };
