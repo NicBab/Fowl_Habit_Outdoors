@@ -1,7 +1,8 @@
+import { Contact } from "../../components/index/components.index";
 
 const ContactPg = () => {
   return (
-    <div>ContactPg</div>
+    <div><Contact/></div>
   )
 }
 
