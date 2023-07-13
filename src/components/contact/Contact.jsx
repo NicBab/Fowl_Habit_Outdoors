@@ -36,7 +36,7 @@ const ContactForm = () => {
         <div className={`${layout.sectionInfo} z-[1]`}>
           <h2 className={styles.heading2}>
             Interested?... <br className="sm:block hidden" />
-            Get in touch!
+            Contact Us!
             <br className="sm:block hidden" />
           </h2>
           <span className="font-council text-white text-[40px] leading-[40px] py-10">
