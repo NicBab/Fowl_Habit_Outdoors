@@ -4,7 +4,7 @@ import { Hero, About, Why, CTA } from "../../components/index/components.index";
 const HomePg = () => {
   return (
     <div id="home">
-      <div className={`bg-hero-pattern bg-cover ${styles.paddingX} ${styles.flexStart} ${layout.section}`}>
+      <div className={`bg-hero_pattern bg-cover ${styles.paddingX} ${styles.flexStart} ${layout.section}`}>
         <div className={`${styles.boxWidth}`}>
           <Hero />
         </div>
