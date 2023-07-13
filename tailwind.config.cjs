@@ -11,7 +11,7 @@ module.exports = {
         dimWhite: "#ffffffb3",
       },
       backgroundImage: {
-        'hero_pattern': "url('./src/assets/images/fowlHabitHero.jpg')",
+        'hero_pattern': "url('/src/assets/images/fowlHabitHero.jpg')",
       },
 
       fontFamily: {
