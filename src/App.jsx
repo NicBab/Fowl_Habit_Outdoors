@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import styles from "./style";
-import { Navbar } from "./components/index/components.index.js";
+import { Navbar, Footer } from "./components/index/components.index.js";
 import { HomePg, AboutPg, GalleryPg, ContactPg } from "./pages/index/pages.index"
 
 function App() {
@@ -19,6 +19,13 @@ function App() {
         <Route path="/gallery" element={<GalleryPg />} />
         <Route path="/contact" element={ <ContactPg /> } />
       </Routes>
+      <div className="bg-primary w-full overflow-hidden">
+        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+          <div className={`${styles.boxWidth} z-[10]`}>
+            <Footer />
+          </div>
+        </div>
+      </div>
     </>
   );
 }

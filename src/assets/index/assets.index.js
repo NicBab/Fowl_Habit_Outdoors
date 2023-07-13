@@ -7,3 +7,4 @@ export { default as arrowUp } from "../icons/arrow-up.svg";
 
 //IMAGES
 export { default as fhoDog } from "../images/fowlHabitHero.jpg"
+export { default as gears_logo } from "../images/gears_logo.png"

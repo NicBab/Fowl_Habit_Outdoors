@@ -6,6 +6,7 @@ export { default as About } from "../about/About.jsx";
 export { default as Hero } from "../hero/Hero.jsx";
 export { default as CTA } from "../cta/CTA.jsx";
 export { default as Why } from "../why/Why.jsx";
+export { default as Footer } from "../footer/Footer.jsx";
 
   //BUTTONS
   export { default as Btn } from "../buttons/Btn.jsx";
